@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Webhook Tutorial</title>
+    <style>
+    .icon-bar {
+    width: 600px;
+    background: #fff;
+    }
+    .icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: #555;
+    font-size: 36px;
+    }
+    .icon-bar a:hover {
+    background: #e74c3c;
+    color: #fff;
+    }
+    .active {
+    background: #e74c3c;
+    color: #fff !important;
+    }
+    </style>
+  </head>
+  <body>
+    
+        <div class="carousel" data-flickity='{ "freeScroll": false, "contain": false, "prevNextButtons": false, "pageDots": false, "autoPlay": true }'>
+      <div class="week">
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_name">
+          <p>TEAM NAME A</p>
+        </div>
+        <div class="week_result">
+          <p>VS</p>
+        </div>
+        <div class="week_name">
+          <p>TEAM NAME B</p>
+        </div>
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_date">
+          <p>26 AGOST - 22:00 UTC / 02:00 ATM / 21:00 AMC</p>
+        </div>
+      </div>
+      <div class="week">
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_name">
+          <p>TEAM NAME A</p>
+        </div>
+        <div class="week_result">
+          <p>VS</p>
+        </div>
+        <div class="week_name">
+          <p>TEAM NAME B</p>
+        </div>
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_date">
+          <p>26 AGOST - 22:00 UTC / 02:00 ATM / 21:00 AMC</p>
+        </div>
+      </div>
+      <div class="week">
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_name">
+          <p>TEAM NAME A</p>
+        </div>
+        <div class="week_result">
+          <p>VS</p>
+        </div>
+        <div class="week_name">
+          <p>TEAM NAME B</p>
+        </div>
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_date">
+          <p>26 AGOST - 22:00 UTC / 02:00 ATM / 21:00 AMC</p>
+        </div>
+      </div>
+      <div class="week">
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_name">
+          <p>TEAM NAME A</p>
+        </div>
+        <div class="week_result">
+          <p>VS</p>
+        </div>
+        <div class="week_name">
+          <p>TEAM NAME B</p>
+        </div>
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_date">
+          <p>26 AGOST - 22:00 UTC / 02:00 ATM / 21:00 AMC</p>
+        </div>
+      </div>
+      <div class="week">
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_name">
+          <p>TEAM NAME A</p>
+        </div>
+        <div class="week_result">
+          <p>VS</p>
+        </div>
+        <div class="week_name">
+          <p>TEAM NAME B</p>
+        </div>
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_date">
+          <p>26 AGOST - 22:00 UTC / 02:00 ATM / 21:00 AMC</p>
+        </div>
+      </div>
+      <div class="week">
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_name">
+          <p>TEAM NAME A</p>
+        </div>
+        <div class="week_result">
+          <p>VS</p>
+        </div>
+        <div class="week_name">
+          <p>TEAM NAME B</p>
+        </div>
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_date">
+          <p>26 AGOST - 22:00 UTC / 02:00 ATM / 21:00 AMC</p>
+        </div>
+      </div>
+      <div class="week">
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_name">
+          <p>TEAM NAME A</p>
+        </div>
+        <div class="week_result">
+          <p>VS</p>
+        </div>
+        <div class="week_name">
+          <p>TEAM NAME B</p>
+        </div>
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_date">
+          <p>26 AGOST - 22:00 UTC / 02:00 ATM / 21:00 AMC</p>
+        </div>
+      </div>
+      <div class="week">
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_name">
+          <p>TEAM NAME A</p>
+        </div>
+        <div class="week_result">
+          <p>VS</p>
+        </div>
+        <div class="week_name">
+          <p>TEAM NAME B</p>
+        </div>
+        <div class="week_logo"> <img src="img/wc.webp" class="blog-img2"></div>
+        <div class="week_date">
+          <p>26 AGOST - 22:00 UTC / 02:00 ATM / 21:00 AMC</p>
+        </div>
+      </div>
+    </div>
+    
+      <div class="divisiones2">
+          <div class="divisiones2_logo">
+            <img alt="Clash of Clans" src="img/wizard.png" /> </div>
+          <div class="divisiones2_text">
+            <h2>HOW TO SPONSOR?</h2>
+            <p><a href="https://discord.gg/kWswVWf">CONTACT US ON DISCORD</a></p>
+          </div>
+        </div>
+    <div class="icon-bar">
+      	<a href="#" class="active"><i class="fa fa-tachometer"></i></a>
+      	<a href="#"><i class="fa fa-free-code-camp"></i></a>
+      	<a href="#"><i class="fa fa-user-o"></i></a>
+      	<a href="#"><i class="fa fa-comment-o"></i></a>
+      	<a href="#"><i class="fa fa-shopping-cart"></i></a>
+      </div>
+    <button onclick="sendMessage()">Send</button>
+  </body>
+
+  <script>
+    function sendMessage() {
+var request = new XMLHttpRequest();
+request.open("POST", "https://discord.com/api/webhooks/870999649425686598/VR4SgeVIfQfL5f4dmyvXbjbtK14GIhgdgoOnJM_w1icNuUW6dYKpNpOajWKg3JLQWGYe");
+// again, replace the url in the open method with yours
+request.setRequestHeader('Content-type', 'application/json');
+
+var myEmbed = {
+  author: {
+    name: "Captain Hook"
+  },
+  title: "",
+  description: "`This is a cool-looking Discord embed, sent directly from JavaScript!`",
+  color: hexToDecimal("#ff0000")
+}
+
+var params = {
+  username: "Announcement War",
+  embeds: [ myEmbed ]
+}
+
+request.send(JSON.stringify(params));
+
+// function that converts a color HEX to a valid Discord color
+function hexToDecimal(hex) {
+  return parseInt(hex.replace("#",""), 16)
+}
+    }
+  </script>
+</html>

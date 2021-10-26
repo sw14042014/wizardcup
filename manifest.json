@@ -1,0 +1,17 @@
+{
+  "name": "Wizard Cup",
+  "short_name": "Wizard Cup",
+  "start_url": "/index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Tournament Clash of Clans",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/fav128.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
